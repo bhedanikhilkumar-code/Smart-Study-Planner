@@ -149,56 +149,54 @@ smart-study-planner/
 
 ## ⚙ Installation Guide
 
-### 1️⃣ Clone Repository
+1️⃣ Clone Repository
 ```bash
 git clone https://github.com/your-username/smart-study-planner.git
 cd smart-study-planner
 
 
 
-###  2️⃣ Install Dependencies
-## Backend
+2️⃣ Install Dependencies
+Backend
 cd server
 npm install
 
 
 
-## Frontend
+Frontend
 cd client
 npm install
 
 
 
-### 3️⃣ Setup Environment Variables
-## Create .env file inside server/
+3️⃣ Setup Environment Variables
+Create .env file inside server/
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 OPENAI_API_KEY=your_openai_key
 
 
-### 4️⃣ Run Application
-## Start Backend
+4️⃣ Run Application
+Start Backend
 cd server
 npm run dev
 
 
 
-### Start Frontend
+Start Frontend
 cd client
 npm start
 
 
-
-
-## Application will run on:
+Application will run on:
 Frontend: http://localhost:3000
 Backend:  http://localhost:5000
 
 
 
 
-### 🔐 Security Features
+🔐 Security Features
 
 Encrypted passwords
 
