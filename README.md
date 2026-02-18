@@ -154,14 +154,19 @@ smart-study-planner/
 git clone https://github.com/your-username/smart-study-planner.git
 cd smart-study-planner
 
-### 2️⃣ Install Dependencies
+
+
+###  2️⃣ Install Dependencies
 ## Backend
 cd server
 npm install
 
+
+
 ## Frontend
 cd client
 npm install
+
 
 
 ### 3️⃣ Setup Environment Variables
@@ -178,9 +183,12 @@ cd server
 npm run dev
 
 
+
 ### Start Frontend
 cd client
 npm start
+
+
 
 
 ## Application will run on:
